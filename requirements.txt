@@ -1,6 +1,8 @@
-flask
-numpy
-pandas
-matplotlib
-scikit-learn
-joblib
+# Web Framework & Production WSGI Server
+Flask==3.0.3
+gunicorn==22.0.0
+
+# Inference & Math
+numpy==1.26.4
+scikit-learn==1.4.1.post1
+joblib==1.4.2

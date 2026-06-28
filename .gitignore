@@ -1,1 +1,37 @@
-.vscode
+# OS Generated Files (Mac/Linux)
+.DS_Store
+.DS_Store?
+._*
+.Trash-*
+
+# IDEs 
+.vscode/
+.idea/
+
+# Python & Conda Environments
+__pycache__/
+*.py[cod]
+*$py.class
+.conda/
+env/
+envs/
+venv/
+
+# Security (Never commit secrets)
+.env
+*.pem
+
+# Application Logs
+*.log
+
+# MLOps: Data & Artifacts
+# Best Practice: Git is for code, not data or binaries. Track these via DVC or S3 instead.
+data/
+*.csv
+*.dat
+
+# MLOps: Models 
+# NOTE: If your GitHub Actions CI pipeline requires 'loan_approval_pipeline.pkl' to build 
+# the Docker image, you must temporarily comment out the two lines below so it gets pushed.
+*.pkl
+*.joblib
